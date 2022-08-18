@@ -1,0 +1,16 @@
+
+//  main.c
+//  Sum
+//
+//   created by Rajnesh  on 11/08/22.
+//
+
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    printf("Enter two integers: ");
+    scanf("%d %d",&a,&b);
+    printf("Sum: %d + %d = %d\n",a,b,a+b);
+    return 0;
+}
